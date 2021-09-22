@@ -1,0 +1,7 @@
+---
+ - host : all
+   become : yes
+   name : i want to install websrver on  ubuntu nodes
+   apt:
+   - name : apache2
+     state : present
